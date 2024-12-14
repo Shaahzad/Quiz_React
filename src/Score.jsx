@@ -11,8 +11,8 @@ useEffect(() => {
 }, [])
   return (
     <div className='flex flex-col justify-center items-center h-screen'>
-        <p className='text-2xl text-blue-500'>Your score is {state.score}</p>
-        <p className='text-2xl text-blue-500'>Your percentage is {percentage}%</p>
+        <p className='text-2xl text-blue-500 font-bold'>Your score is {state.score}</p>
+        <p className='text-2xl text-blue-500 font-bold'>Your percentage is {percentage}%</p>
     </div>
   )
 }
