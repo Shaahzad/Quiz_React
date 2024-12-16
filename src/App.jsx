@@ -91,7 +91,7 @@ function shuffleArray(arr){
             )
           })}
           <button onClick={NextQuestionHandler} className='text-2xl m-10 bg-blue-300 p-5 font-bold rounded-2xl'>Next</button>
-        </div> : <h1 className='text-5xl font-bold text-center mt-10'>Loading...</h1>
+        </div> : <h1 className='text-2xl font-bold text-center mt-10'>Loading...</h1>
       }
     </>
   )
